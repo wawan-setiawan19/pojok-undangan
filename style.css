@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brand-logo{
+    width: 25%;
+}
+
+@media screen and (min-width:1200px){
+    .brand-logo{
+        width: 15%;
+        top: 10px;
+    }
+}
+
+nav{
+    height: 10vh;
+}
+
+@media screen and (max-width:600px){
+    .brand-logo{
+        width: 50%;
+        top: 10px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .brand-logo {
+        width: 40%;
+        top: 10px;
+    }
+}
+
+.btn-order{
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.btn-order:hover{
+    box-shadow: 0 0 20px white;
+}
+
+.brand-head{
+    font-size: 2rem;
+    margin-top: 20vh;
+}
+
+.brand-slogan{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
