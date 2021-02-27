@@ -6,13 +6,10 @@
     box-sizing: border-box;
 }
 
-.brand-logo {
-    width: 50%;
-    top: 10px;
-}
-
-nav {
-    height: 10vh;
+@media screen and (max-width:600px){
+    .brand-logo {
+        margin-top: -10px;
+    }
 }
 
 .btn-order {
@@ -26,7 +23,7 @@ nav {
 
 .brand-head {
     font-size: 2rem;
-    margin-top: 10vh;
+    margin-top: 35vh;
 }
 
 .brand-slogan {
@@ -44,10 +41,30 @@ nav {
     margin-top: 10px;
 }
 
+.parallax-container{
+    height: 100vh;
+}
+
+nav{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    box-shadow: none;
+    z-index: 999;
+}
+
+.deskripsi{
+    margin-top: 20px;
+}
+
+.logo-footer{
+    height: 10vh;
+}
+
 /* CSS for Tablet */
 @media screen and (max-width:1200px) {
     .brand-logo {
-        width: 40%;
+        width: 25%;
         top: 10px;
     }
 }
@@ -56,9 +73,14 @@ nav {
 @media screen and (min-width:1200px) {
     .brand-logo {
         width: 15%;
-        top: 10px;
+        margin-top: 10px;
     }
+
     .brand-head {
-        margin-top: 25vh;
+        margin-top: 35vh;
+    }
+
+    .parallax-container{
+        text-align: center;
     }
 }
